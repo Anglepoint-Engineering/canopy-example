@@ -21,4 +21,4 @@ jobs:
 
       - name: Test
         run: |
-          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} mix do canopy.cover, canopy.github
+          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MIX_ENV=test mix do canopy.cover, canopy.github
