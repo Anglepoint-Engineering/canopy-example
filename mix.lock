@@ -1,3 +1,3 @@
 %{
-  "canopy": {:git, "https://github.com/Anglepoint-Engineering/canopy.git", "7b4f6eac3d6411c61b94748b2f98ed1ae302953a", [tag: "github-test-18"]},
+  "canopy": {:git, "https://github.com/Anglepoint-Engineering/canopy.git", "ab4a6251869fdb145f5604bdc273aab15c60e164", [tag: "github-test-19"]},
 }
