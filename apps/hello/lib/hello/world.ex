@@ -1,5 +1,7 @@
 defmodule Hello.World do
   def greeting do
-    IO.puts("hello world!")
+    message = "hello" <> " " <> "world!"
+
+    IO.puts(message)
   end
 end
