@@ -22,8 +22,8 @@ jobs:
           otp-version: "27.0"
           elixir-version: "1.17.3"
 
-      - name: Install dependencies
-        run: mix deps.get
+      - name: Setup
+        run: mix do, deps.get, deps.compile, compile
 
       - name: Test
         run: |
