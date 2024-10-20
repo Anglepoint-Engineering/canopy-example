@@ -24,3 +24,6 @@ erl_crash.dump
 
 # Canopy
 /canopy
+
+# Elixir LS
+.elixir_ls

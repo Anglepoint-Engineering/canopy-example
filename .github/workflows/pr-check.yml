@@ -23,8 +23,8 @@ jobs:
           elixir-version: "1.17.3"
 
       - name: Setup
-        run: mix do deps.get, deps.compile, compile
+        run: mix do deps.get
 
       - name: Test
         run: |
-          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MIX_ENV=test mix do canopy.cover, canopy.github
+          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }} MIX_ENV=test mix do compile, canopy.cover, canopy.github
