@@ -23,7 +23,7 @@ jobs:
           elixir-version: "1.17.3"
 
       - name: Setup
-        run: mix do, deps.get, deps.compile, compile
+        run: mix do deps.get, deps.compile, compile
 
       - name: Test
         run: |
