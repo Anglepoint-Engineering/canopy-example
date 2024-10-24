@@ -17,8 +17,7 @@ defmodule CanopyExample.MixProject do
   # Run "mix help deps" for examples and options.
   defp deps do
     [
-      {:canopy,
-       git: "https://github.com/Anglepoint-Engineering/canopy.git", tag: "github-test-22"}
+      {:canopy, git: "https://github.com/Anglepoint-Engineering/canopy.git", tag: "ignore-1"}
     ]
   end
 end
